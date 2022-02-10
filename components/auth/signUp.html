@@ -7,7 +7,8 @@
     <script src="https://kit.fontawesome.com/7389171962.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://vite-ui.netlify.app/css/component.css">
     <link rel="stylesheet" href="/css/landing.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/auth.css">
+    <title>SignUp</title>
 </head>
 <body>
     <nav class="navbar-landing">
@@ -42,33 +43,28 @@
             </li>
         </ul>
     </nav>
-    <div class="container">
-        <section class="main">
-            <div class="introduction"> 
-                <h3>Welcome to Gamekart!!</h3>
-                <h1 class="doc-para">This is where the FUN BEGINS..</h1>
-                <a href="./components/docs.html" class="main-btn">Get Started</a>
-            </div>
-        </section>
-        <h1 class="text-center">Products</h1>
-        <section class="products">
-            <div class="product games">
-                <h1>Explore Games</h1>
-            </div>
-            <div class="product accessories">
-                <h1>Accessories</h1>
-            </div>
-            <div class="product console">
-                <h1>Consoles</h1>
-            </div>
-        </section>
-        <h1 class="text-center">Connect us through social media</h1>
-        <section class="social-media">
-            <a href="#" class="link social-link" target="_blank"><i class="fab fa-facebook-f social-icon"></i></a>
-            <a href="#" class="link social-link" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
-            <a href="#" class="link social-link" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
-            <a href="#" class="link social-link" target="_blank"><i class="fab fa-youtube social-icon"></i></a>
-        </section>
+    <div class="form-container">
+        <h1 class="text-center">signup</h1>
+        <form class="form">
+            <label for="" class="input-label">
+                Email address:
+                <input type="email" placeholder="Enter your email here" class="input">
+            </label>
+            <label for="" class="input-label">
+                Password:
+                <input type="password" placeholder="*************" class="input">
+            </label>
+            <label for="" class="input-label-row">
+                <input type="checkbox" class="checkbox-input">
+                <span class="inputs-title">I accept all Terms & Conditions</span>
+            </label>
+            <label for="" class="input-label">
+                <input type="submit" class="btn btn-m" value="Create New Account">
+            </label>
+            <label for="" class="input-label text-center">
+                <a href="/components/auth/login.html" class="btn-link">Already have an account &nbsp ></a>
+            </label>
+          </form>
     </div>
 </body>
 </html>
