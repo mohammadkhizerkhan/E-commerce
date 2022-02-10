@@ -6,9 +6,12 @@
     flex-direction: row;
     width: 100%;
     margin: 0.5rem;
-    padding: 1.5rem;
+    padding: 0.5rem;
 }
 
+.link{
+    color: var(--secondary);
+}
 
 .img-responsive{
     width: 100%;
@@ -31,10 +34,16 @@
 }
 
 .main{
+    background: url(/images/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: var(--shadow);
+    color: white;
+    border-radius: 5px;
     width: 100%;
     max-width: 1310px;
-    margin: 1rem auto;
-    height: 400px;
+    margin: 0.5rem auto;
+    height: 75vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,20 +55,30 @@
     flex-direction: column;
     align-items: flex-start;
     font-size: large;
-    margin-right: 25%;
+    margin-left: 3rem;
 }
 .doc-para{
     font-weight: 500;
 }
 
-.btn{
+.main-btn{
     display: inline-block;
     padding: 1rem;
     border: none;
     font-size: large;
     font-weight: bold;
     border-radius: 6px;
-    background-color: var(--primary);
-    color: var(--secondary);
+    background-image: linear-gradient(to right,blueviolet,hotpink);
+    color: white;
     margin-top: 1rem;
+    /* transition-property:all;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out; */
+    transition: 0.3s;
+
+}
+
+.main-btn:hover{
+    background-image: linear-gradient(to right,hotpink,blueviolet);
 }
