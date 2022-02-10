@@ -71,10 +71,6 @@
     background-image: linear-gradient(to right,blueviolet,hotpink);
     color: white;
     margin-top: 1rem;
-    /* transition-property:all;
-    transition-delay: 1s;
-    transition-duration: 2s;
-    transition-timing-function: ease-in-out; */
     transition: 0.3s;
 
 }
