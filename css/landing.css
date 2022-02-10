@@ -33,16 +33,21 @@
     align-items: center;
 }
 
+.container{
+    width: 100%;
+    max-width: 1310px;
+    margin: 0.5rem auto;
+    height: auto;
+}
+
 .main{
+    margin: 0 0 2rem 0;
     background: url(/images/keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: var(--shadow);
     color: white;
     border-radius: 5px;
-    width: 100%;
-    max-width: 1310px;
-    margin: 0.5rem auto;
     height: 75vh;
     display: flex;
     flex-direction: row;
@@ -77,4 +82,83 @@
 
 .main-btn:hover{
     background-image: linear-gradient(to right,hotpink,blueviolet);
+}
+
+/* .heading{
+    text-align: center;
+} */
+
+.products{
+    height: 73vh;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-areas: 
+    "games games console"
+    "games games accessories";
+    grid-gap: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.product{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.games{
+    grid-area: games;
+    background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.8)), url(/images/games.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.games:hover{
+    background-image:url(/images/games.jpg);
+}
+
+.console{
+    grid-area: console;
+    background-image: linear-gradient(to bottom,rgba(250, 250, 250, 0.2), rgba(0, 0, 0, 0.8)), url(/images/console.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.console:hover{
+    background-image: url(/images/console.jpg);
+}
+.accessories{
+    grid-area: accessories;
+    background-image: linear-gradient(to bottom,rgba(250, 250, 250, 0.2), rgba(0, 0, 0, 0.8)), url(/images/accessories.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accessories:hover{
+    background-image: url(/images/accessories.jpg);
+}
+
+
+.social-media{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: space-between;
+}
+
+.social-link{
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.social-link:hover{
+    border: 2px solid gray;
+    box-shadow: var(--shadow);
+}
+
+.social-icon{
+    font-size: 4rem;
 }
