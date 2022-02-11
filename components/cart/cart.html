@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/7389171962.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://vite-ui.netlify.app/css/component.css">
     <link rel="stylesheet" href="/css/landing.css">
+    <link rel="stylesheet" href="/css/cart.css">
     <title>Document</title>
 </head>
 <body>
@@ -42,6 +43,45 @@
             </li>
         </ul>
     </nav>
-    
+    <div class="cart-container">
+        <h1 class="text-center">MY CART(1)</h1>
+        <div class="cart-items">
+            <div class="card">
+                <div class="card-img-body">
+                    <div class="card-horz-img">
+                        <img
+                          src="/images/mouse.jpg"
+                          alt="" class="card-img-bd img-responsive" />
+                    </div>
+                  <div class="card-body">
+                    <header class="card-header">
+                      <h3>Dragonwar Red Gear Gaming Mouse</h3>
+                      <h5>$20 <span class="text-strike">$30</span></h5>
+                      <h5><span class="text-left">66% off</span></h5>
+                    </header>
+                    <div class="quantity">
+                        <span class="text-left">Quantity:</span>
+                        <div class="quantity-input-container">
+                            <button class="btn secondary-btn-outlined btn-icon">
+                               -
+                              </button>
+                            <input type="number" class="quantity-input" value="1">
+                            <button class="btn secondary-btn-outlined btn-icon">
+                                +
+                              </button>
+                        </div>
+                    </div>
+                      <div class="card-btn-container">
+                        <button class="btn primary-btn btn-s">Remove From Cart</button>
+                        <button class="btn secondary-btn-outlined btn-s">
+                          Move To Wishlist
+                        </button>
+                      </div>
+                
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
 </body>
 </html>

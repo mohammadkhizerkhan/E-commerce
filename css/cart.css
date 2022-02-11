@@ -1,0 +1,68 @@
+@import url(/css/common.css);
+
+
+.cart-container{
+    width: 100%;
+    max-width: 55%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.card{
+    width: 450px;
+}
+.card-body{
+    padding: 0.5rem;
+}
+
+.card-horz-img {
+    width: 40%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.card-img-body{
+    height: auto;
+}
+
+.card-header h5{
+    color: black;
+    font-weight: bold;
+}
+.card-header span{
+    margin: 5px;
+    color: gray;
+    font-weight: bold;
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quantity-input-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    margin: 5px 0;
+}
+.btn-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.quantity-input{
+    width: 15%;
+    padding: 2px;
+}
+
+.card-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
