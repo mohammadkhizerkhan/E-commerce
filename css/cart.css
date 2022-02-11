@@ -1,0 +1,111 @@
+@import url(/css/common.css);
+
+
+.cart-container{
+    padding: 10px;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    height: auto;
+    grid-gap: 2.5rem;
+    background-color: rgb(177, 176, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: grid;
+    grid-template-areas: 
+    "heading heading"
+    "cart_item price_details"; */
+    /* position: relative; */
+}
+
+.cart-items-container{
+    width: 50%;
+    /* grid-area: cart_item; */
+}
+
+.card{
+    width: 440px;
+}
+
+.cart-heading{
+    /* grid-area: heading; */
+}
+.card-body{
+    padding: 0.5rem;
+}
+
+.card-img-body{
+    height: auto;
+}
+.card-horz-img {
+    width: 40%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.card-header h5{
+    color: black;
+    font-weight: bold;
+}
+.card-header span{
+    margin: 5px;
+    color: gray;
+    font-weight: bold;
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quantity-input-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.btn{
+    margin: 5px 0;
+    width: 100%;
+}
+.btn-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.quantity-input{
+    width: 20%;
+    padding: 2px;
+}
+
+.card-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.price-details{
+    width: 50%;
+    padding: 2rem;
+    background-color: white;
+    align-self: flex-start;
+    /* grid-area: price_details; */
+    /* position: fixed;
+    top: 0;
+    right: 0; */
+}
+
+.divider-line {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.charges-amt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
