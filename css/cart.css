@@ -28,9 +28,9 @@
     width: 440px;
 }
 
-.cart-heading{
-    /* grid-area: heading; */
-}
+/* .cart-heading{
+    grid-area: heading;
+} */
 .card-body{
     padding: 0.5rem;
 }
