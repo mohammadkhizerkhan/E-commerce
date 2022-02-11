@@ -31,7 +31,8 @@
 
 .btn{
     padding: 0;
-    margin: 0;
+    margin: 5px 0;
+    width: auto;
 }
 
 .filter-price{
@@ -69,4 +70,12 @@
 
 .filter-rating{
     margin: 2rem 0 0 0;
+}
+
+.product-items{
+    width: 100%;
+    margin-left: 260px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 10px;
 }
