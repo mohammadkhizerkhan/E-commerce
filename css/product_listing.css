@@ -1,0 +1,72 @@
+@import url(/css/common.css);
+
+
+.navbar-landing{
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.product-container{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    margin: 8rem 0;
+}
+
+.filter-container{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 1.4rem;
+    position: fixed;
+    left: 0;
+    height:100%;
+    overflow-y: auto;
+    border-right: 1px solid black;
+}
+
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 0;
+    margin: 0;
+}
+
+.filter-price{
+    margin: 2rem 0 0 0;
+}
+
+.price-range{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider{
+    width: 100%;
+}
+
+.filter-category{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 0 0;
+}
+
+.filter-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+.filter-rating{
+    margin: 2rem 0 0 0;
+}
