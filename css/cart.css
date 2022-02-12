@@ -36,10 +36,10 @@
 }
 
 .card-img-body{
-    height: auto;
+    height: 100%;
 }
 .card-horz-img {
-    width: 40%;
+    width: 60%;
     height: inherit;
     object-fit: cover;
 }

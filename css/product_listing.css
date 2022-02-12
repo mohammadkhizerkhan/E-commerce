@@ -1,0 +1,96 @@
+@import url(/css/common.css);
+
+
+.navbar-landing{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-container{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    margin: 8rem 0 1rem 0;
+}
+
+.filter-container{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 1.4rem;
+    position: fixed;
+    left: 0;
+    height:100%;
+    overflow-y: auto;
+    border-right: 1px solid black;
+}
+
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 0;
+    margin: 5px 0;
+    width: auto;
+}
+
+.filter-price{
+    margin: 2rem 0 0 0;
+}
+
+.price-range{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider{
+    width: 100%;
+}
+
+.filter-category{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 0 0;
+}
+
+.filter-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+.filter-rating{
+    margin: 2rem 0 0 0;
+}
+
+.product-items-container{
+    width: 100%;
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-items-container h1 span{
+    font-size: 1rem;
+}
+
+.product-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 550px));
+    grid-gap: 10px;       
+}
+
+.card{
+    width: 500px;
+}
